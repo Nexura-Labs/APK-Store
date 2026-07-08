@@ -97,6 +97,33 @@
         .features li:last-child {
             margin-bottom: 0;
         }
+
+        /* Inline License Link Style */
+        .text-link {
+            color: #e0e0e0;
+            text-decoration: none;
+            border-bottom: 1px dashed #777;
+            transition: color 0.2s, border-color 0.2s;
+        }
+
+        .text-link:hover {
+            color: #d0bcff;
+            border-bottom: 1px solid #d0bcff;
+        }
+
+        /* Source Code Link Bottom */
+        .source-link {
+            display: inline-block;
+            margin-top: 24px;
+            color: #888888;
+            font-size: 0.85rem;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .source-link:hover {
+            color: #d0bcff;
+        }
     </style>
 </head>
 <body>
@@ -115,9 +142,11 @@
             <ul>
                 <li>Advanced Calc & 15+ Utilities</li>
                 <li>Ad-free & Strictly Offline</li>
-                <li>MIT Licensed & Open Source</li>
+                <li><a href="https://github.com/Nexura-Labs/Calculator/blob/main/LICENSE" target="_blank" class="text-link">MIT Licensed</a> & Open Source</li>
             </ul>
         </div>
+
+        <a href="https://github.com/Nexura-Labs/Calculator" target="_blank" class="source-link">View Source on GitHub</a>
     </div>
 
 </body>
