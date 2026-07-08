@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N Calculator</title>
+    <style>
+        /* Material 3 & Glassmorphism Base */
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #121212, #2c2c2c);
+            color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 16px;
+            box-sizing: border-box;
+        }
+
+        /* Adaptive Card Layout */
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 28px; /* Material 3 large radius */
+            padding: 40px 32px;
+            text-align: center;
+            max-width: 420px;
+            width: 100%;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Direct GitHub Raw Image */
+        .logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            margin: 0 0 12px 0;
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        p {
+            color: #b3b3b3;
+            margin: 0 0 32px 0;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        /* Material 3 Primary Button */
+        .btn {
+            display: inline-block;
+            background: #d0bcff;
+            color: #381e72;
+            text-decoration: none;
+            padding: 16px 32px;
+            border-radius: 100px; /* Fully rounded for M3 */
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .btn:hover {
+            background: #e8def8;
+            transform: scale(1.02);
+        }
+
+        /* Minimal feature list */
+        .features {
+            margin-top: 32px;
+            text-align: left;
+            font-size: 0.9rem;
+            color: #999999;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 16px;
+            padding: 16px 24px;
+        }
+
+        .features ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .features li {
+            margin-bottom: 8px;
+        }
+        
+        .features li:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://raw.githubusercontent.com/Nexura-Labs/Calculator/c06fe1925d4f201c7a04a19b8cdbbe05454b1102/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" alt="N Calculator Logo" class="logo">
+        
+        <h1>N Calculator</h1>
+        <p>A fast, 100% offline calculator and everyday utility toolkit.</p>
+        
+        <a href="https://github.com/Nexura-Labs/Calculator/releases/download/v1.0.3/N.Calculator_v1.0.3.apk" class="btn">
+            Download APK
+        </a>
+        
+        <div class="features">
+            <ul>
+                <li>Advanced Calc & 15+ Utilities</li>
+                <li>Ad-free & Strictly Offline</li>
+                <li>MIT Licensed & Open Source</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
